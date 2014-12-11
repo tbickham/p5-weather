@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>P5: Weather</title>
+
+  <link rel="stylesheet" type="text/css" href="css/semantic.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="ui grid">
+    <div class="five wide column"></div>
+    <div class="six wide column">
+      <div class="weatherContainer ui center aligned segment">
+        <div class="ui segment">
+          <div class="ui vertical segment">
+            <h1 class="currentTemp">&deg;</h1>
+          </div>
+          
+          <div class="ui vertical segment">
+            <img class="weatherIcon ui centered image" src="" />
+            <h2 class="condition"></h2>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="ui vertical segment">
+            <h2 class="highTemp">&deg;</h2>
+          </div>
+          <div class="ui vertical segment">
+            <h2 class="lowTemp">&deg;</h2>
+          </div>
+        </div>
+
+        <div class="ui segment">
+          <div class="ui input">
+            <input class="newLocation" value="Spokane, WA" type="text">
+          </div>
+          <div class="ui button">Lookup</div>
+        </div>
+      </div>
+    <div class="five wide column"></div>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/semantic.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>

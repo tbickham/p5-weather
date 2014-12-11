@@ -1,0 +1,53 @@
+.weatherContainer {
+	max-width: 320px;
+}
+
+h1.currentTemp {
+	font-size: 9em;
+	margin: 0px, 25%, 0px, 25%;
+}
+
+img.weatherIcon {
+	text-align: center;
+	padding: 0px;
+}
+
+.ui.segment	{
+	background-color: #EAEAEA;
+	border-radius: 15px;
+}
+
+.ui.segment .ui.segment {
+	background-color: #DCDCDC;
+}
+
+.ui.input input {
+	background-color: #EAEAEA;
+	border: solid 2px #ABABAB;
+	border-radius: 3px;
+}
+
+.ui.button {
+	background-color: #C3C3C3;
+	border: solid 2px #ABABAB;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+@media screen and (min-width: 320px){
+	.weatherContainer {
+		max-width: 320px;
+	}
+}
+
+@media screen and (min-width: 720px){
+	.weatherContainer {
+		max-width: 90%;
+	}
+}
+
+@media screen and (min-width: 721px){
+	.weatherContainer {
+		max-width: 500px;
+	}
+}
